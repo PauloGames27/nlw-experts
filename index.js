@@ -1,96 +1,95 @@
 const perguntas = [
     {
-      pergunta: "O que é JavaScript?",
+      pergunta: "Qual é o nome do protagonista de One Piece?",
       respostas: [
-        "Uma linguagem de marcação",
-        "Um estilo de design web",
-        "Uma linguagem de programação",
+        "Monkey D. Luffy",
+        "Roronoa Zoro",
+        "Nami",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Quem é o capitão dos Piratas do Chapéu de Palha?",
+      respostas: [
+        "Roronoa Zoro",
+        "Nami",
+        "Monkey D. Luffy",
       ],
       correta: 2
     },
     {
-      pergunta: "Qual é a função do comando 'console.log()' em JavaScript?",
+      pergunta: "Qual é a fruta do diabo que Monkey D. Luffy comeu?",
       respostas: [
-        "Exibir uma mensagem de erro no console",
-        "Imprimir informações no console",
-        "Executar uma função assíncrona",
+        "Gomu Gomu no Mi",
+        "Hito Hito no Mi",
+        "Mera Mera no Mi",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Quem é o espadachim da tripulação dos Piratas do Chapéu de Palha?",
+      respostas: [
+        "Nami",
+        "Sanji",
+        "Roronoa Zoro",
+      ],
+      correta: 2
+    },
+    {
+      pergunta: "Qual é o nome do arqueólogo da tripulação dos Piratas do Chapéu de Palha?",
+      respostas: [
+        "Nico Robin",
+        "Franky",
+        "Tony Tony Chopper",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é o sonho de Monkey D. Luffy em One Piece?",
+      respostas: [
+        "Ser o melhor espadachim do mundo",
+        "Se tornar o Rei dos Piratas",
+        "Encontrar o One Piece",
       ],
       correta: 1
     },
     {
-      pergunta: "Como se declara uma variável em JavaScript?",
+      pergunta: "Qual é o nome do navio dos Piratas do Chapéu de Palha?",
       respostas: [
-        "let myVar = 10;",
-        "variable myVar = 10;",
-        "const = myVar 10;",
+        "Going Merry",
+        "Thousand Sunny",
+        "Red Force",
       ],
       correta: 0
     },
     {
-      pergunta: "O que é uma função em JavaScript?",
+      pergunta: "Quem é conhecido como o 'Rei dos Piratas' em One Piece?",
       respostas: [
-        "Um tipo de dado",
-        "Um operador lógico",
-        "Um bloco de código reutilizável",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a diferença entre 'let' e 'const' na declaração de variáveis?",
-      respostas: [
-        "Não há diferença, ambos são intercambiáveis",
-        "'let' é usado para valores constantes, 'const' para valores variáveis",
-        "'const' é usado para valores constantes, 'let' para valores variáveis",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Uma biblioteca JavaScript popular",
-        "O Document Object Model - representa a estrutura de uma página web",
-        "Uma função específica para manipulação de datas",
+        "Monkey D. Luffy",
+        "Gold Roger",
+        "Whitebeard",
       ],
       correta: 1
     },
     {
-      pergunta: "O que é um evento em JavaScript?",
+      pergunta: "Qual é o nome do cozinheiro dos Piratas do Chapéu de Palha?",
       respostas: [
-        "Um tipo de dado",
-        "Uma função de impressão",
-        "Uma ação desencadeada pelo usuário ou pelo navegador",
+        "Roronoa Zoro",
+        "Sanji",
+        "Nami",
       ],
-      correta: 2
+      correta: 1
     },
     {
-      pergunta: "Qual é a finalidade do operador '===' em JavaScript?",
+      pergunta: "Quem é o médico da tripulação dos Piratas do Chapéu de Palha?",
       respostas: [
-        "Comparação estrita de valor e tipo",
-        "Atribuição de valor",
-        "Comparação de valor, sem levar em conta o tipo",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Como se faz um loop 'for' em JavaScript?",
-      respostas: [
-        "for (let i = 0; i < 10; i++)",
-        "loop for (i = 0; i < 10; i++)",
-        "while (i < 10; i++)",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é AJAX em JavaScript?",
-      respostas: [
-        "Uma linguagem de programação",
-        "Uma técnica que permite atualizações assíncronas em uma página web",
-        "Um tipo de biblioteca JavaScript",
+        "Usopp",
+        "Tony Tony Chopper",
+        "Brook",
       ],
       correta: 1
     },
   ];
-  
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
   
